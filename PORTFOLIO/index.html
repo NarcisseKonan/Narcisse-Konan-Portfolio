@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Narcisse Konan — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <!-- Curseur -->
+      <div class="cursor" id="cursor"></div>
+      <div class="cursor-ring" id="cursorRing"></div>
+
+      <!-- TOAST NOTIFICATION -->
+      <div class="toast" id="toast"></div>
+
+      <!-- NAV -->
+      <nav id="navbar">
+        <a href="#hero" class="nav-logo">Narcisse<span>.</span>Konan</a>
+        <ul class="nav-links">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- HERO -->
+      <section id="hero">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-glow"></div>
+        <p class="hero-eyebrow">✦ Disponible pour différentes opportunités</p>
+        <h1 class="hero-title">Narcisse<br><em>Konan</em></h1>
+        <p class="hero-sub">Economics Student | Cybersecurity Enthusiast | Networks & Systems | Front-End Skills (HTML, CSS & Training JavaScript)</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-outline">Me contacter</a>
+        </div>
+        <div class="hero-scroll">
+          <div class="scroll-line"></div>
+          Défiler
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="section-header reveal">
+          <p class="section-label">Qui suis-je</p>
+          <h2 class="section-title">À propos <em>de moi</em></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>Bonjour, je suis <strong>Kouame Narcisse Moussa Konan</strong>, étudiant en deuxième année de licence en Sciences Économiques et la Gestion des Entreprises. Passionné par la cybersécurité, les technologies numériques, l'analyse économique, la stratégie financière et le développement des organisations.</p>
+            <p>Au delà de mes études, je suis profondement engagé dans l'<strong>apprentissage continu</strong> en ligne comme en présentiel, où j'ai acquis de solide connaissance en réseaux et systèmes.</p>
+            <p>J'aspire plus tard à poursuivre des études en <strong>Statistique et Science des données.</strong></p>
+            <div class="about-stats">
+              <div class="stat-box"><div class="stat-number">01</div><div class="stat-label">Projets réalisés</div></div>
+              <div class="stat-box"><div class="stat-number">+05</div><div class="stat-label">Certifications obtenues</div></div>
+              <div class="stat-box"><div class="stat-number">05+</div><div class="stat-label">Compétences clés</div></div>
+              <div class="stat-box"><div class="stat-number">∞</div><div class="stat-label">Ambition</div></div>
+            </div>
+          </div>
+          <div class="about-photo-wrap reveal">
+              <img src="/assets/autonomie picture.jpeg" class="about-photo" alt="Narcisse Konan">
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <div class="section-header reveal">
+          <p class="section-label">Ce que j'ai réalisé</p>
+          <h2 class="section-title">Mes <em>projets</em></h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <span class="project-tag">Developpement Web</span>
+            <h3 class="project-title">RESULTATS_UNIVERSITAIRES | UIPA</h3>
+            <p class="project-desc">Plateforme web de gestion des résultats universitaires de l'UIPA (filières SEG & SJP, niveaux Licence). 
+              développée suite à un besoin réel vécu en tant qu'étudiant. Permet aux étudiants de consulter leurs notes en ligne et aux administrateurs de saisir ou d'importer les résultats depuis un fichier Excel (PV d'examen). 
+              Calcul automatique des moyennes, mentions et décisions (Admis / Ajourné), gestion des rôles et journal d'activité intégré. </p>
+            <div class="project-links">
+              <a href="https://github.com/NarcisseKonan/resultats_universitaire_uipa.git" class="project-link" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Voir le projet
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <span class="project-tag">Developpement Web</span>
+            <h3 class="project-title">Narcisse Konan | Portfolio Personnel</h3>
+            <p class="project-desc">
+              Site Web conçu et personnalisé pour présenter mon profil, mes compétences et mes projets.
+              Developpé en HTML, CSS et JavaScript, avec une architecture multi-fichiers.
+              Fonctionnalités : animation au scroll, curseur personnalisé, barres de compétences dynamiques, formulaire de contact intégré via EmailJS et design dark moder responsive.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Voir le projet
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="section-header reveal">
+          <p class="section-label">Mon arsenal</p>
+          <h2 class="section-title">Mes <em>compétences</em></h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title">Gestion & Stratégie</h4>
+            <div class="skill-item">
+
+            <div class="skill-item">
+            <div class="skill-name"><span>Word</span><span class="skill-pct">95%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>PowerPoint</span><span class="skill-pct">75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>            
+            <div class="skill-item">
+              <div class="skill-name"><span>Excel / Tableur</span><span class="skill-pct">60%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+            </div>            
+              <div class="skill-name"><span>Marketing stratégique</span><span class="skill-pct">40%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="40"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>Gestion de projet</span><span class="skill-pct">40%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="40"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>Business Plan</span><span class="skill-pct">40%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="40"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title">Outils & Tech</h4>
+
+            <div class="skill-item">
+              <div class="skill-name"><span>Protocoles réseau (TCP/IP, DNS, ...)</span><span class="skill-pct">80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>Windows & Linux (OS)</span><span class="skill-pct">70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>             
+            <div class="skill-item">
+              <div class="skill-name"><span>HTML | CSS</span><span class="skill-pct">60%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>JavaScript</span><span class="skill-pct">20%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="20"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>PHP</span><span class="skill-pct">15%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="15"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>PostgreSQL | Pyton</span><span class="skill-pct">15%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="15"></div></div>
+            </div>
+          </div>          
+
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title">Économie & Finance</h4>
+
+            <div class="skill-item">
+              <div class="skill-name"><span>Comptabilité générale</span><span class="skill-pct">60%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>Analyse financière</span><span class="skill-pct">55%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name"><span>Macroéconomie</span><span class="skill-pct">55%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <div class="section-header reveal">
+          <p class="section-label">Travaillons ensemble</p>
+          <h2 class="section-title">Me <em>contacter</em></h2>
+        </div>
+        <div class="contact-wrap">
+          <div class="contact-info reveal">
+            <p>Un projet, une opportunité, une collaboration ? N'hésitez pas à m'écrire, je réponds sous 24h.</p>
+            <div class="contact-detail">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:narcisse1113@gmail.com">narcisse1113@gmail.com</a>
+            </div>
+            <div class="contact-detail">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .14h3a2 2 0 012 1.72c.13 1 .37 2 .7 2.94a2 2 0 01-.45 2.11L6.09 8a16 16 0 006.92 6.92l1.09-1.16a2 2 0 012.11-.45c.94.33 1.93.57 2.94.7a2 2 0 011.72 2z"/></svg>
+              <a href="https://wa.me/2250502469878">+225 05 02 46 98 78</a>
+            </div>
+            <div class="contact-detail">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              <a href="https://linkedin.com/in/narcissekonan" target="_blank">linkedin.com/in/narcissekonan</a>
+            </div>
+          </div>
+          
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Prénom</label>
+                <input type="text" name="first_name" class="form-input" placeholder="Votre prenom..." required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Nom</label>
+                <input type="text" name="last_name" class="form-input" placeholder="Votre Nom..." required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" name="from_email" class="form-input" placeholder="jean@exemple.com" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Sujet</label>
+              <input type="text" name="subject" class="form-input" placeholder="Opportunité de collaboration" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea name="message" class="form-textarea" placeholder="Bonjour, je vous contacte pour..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="submitBtn">
+              Envoyer le message →
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <span class="footer-logo">Narcisse<span>.</span>Konan</span>
+        <span>© 2026 — Tous droits réservés</span>
+        <span>Chacun d'entre nous a son histoire</span>
+      </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</html>
