@@ -1,7 +1,7 @@
 
-    const EMAILJS_PUBLIC_KEY  = "SA7imJrFDY041VMVv"; 
+    const EMAILJS_PUBLIC_KEY  = "8HPeh0DY1MrLfZQkQ"; 
     const EMAILJS_SERVICE_ID  = "service_mqtq70g";  
-    const EMAILJS_TEMPLATE_ID = "__ejs-test-mail-service__";
+    const EMAILJS_TEMPLATE_ID = "template_gp2xnv9";
 
     emailjs.init(EMAILJS_PUBLIC_KEY);
 
@@ -16,7 +16,6 @@
       setTimeout(() => toast.classList.remove('show'), 4500);
     }
 
-    /* ─── FORMULAIRE EMAILJS ─── */
     document.getElementById('contactForm').addEventListener('submit', function(e) {
       e.preventDefault();
       const btn = document.getElementById('submitBtn');
@@ -38,7 +37,7 @@
         });
     });
 
-    /* ─── CURSOR ─── */
+    /* CURSOR */
     const cursor = document.getElementById('cursor');
     const ring   = document.getElementById('cursorRing');
     let mx=0, my=0, rx=0, ry=0;
@@ -54,11 +53,11 @@
       el.addEventListener('mouseleave', () => { ring.style.width='36px'; ring.style.height='36px'; ring.style.opacity='1'; });
     });
 
-    /* ─── NAV SCROLL ─── */
+    /* NAV SCROLL */
     const nav = document.getElementById('navbar');
     window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
 
-    /* ─── REVEAL ─── */
+    /* REVEAL */
     const obs = new IntersectionObserver((entries) => {
       entries.forEach((e, i) => {
         if (e.isIntersecting) {
@@ -69,7 +68,7 @@
     }, { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach(r => obs.observe(r));
 
-    /* ─── SKILL BARS ─── */
+    /* SKILL BARS */
     const skillObs = new IntersectionObserver((entries) => {
       entries.forEach(e => {
         if (e.isIntersecting)
@@ -78,7 +77,7 @@
     }, { threshold: 0.3 });
     document.querySelectorAll('.skill-group').forEach(g => skillObs.observe(g));
 
-    /* ─── ACTIVE NAV ─── */
+    /* ACTIVE NAV */
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-links a');
     window.addEventListener('scroll', () => {
