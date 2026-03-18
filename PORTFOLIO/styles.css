@@ -314,7 +314,7 @@ section { padding: 7rem 5%; }
     /* FOOTER */
     footer {
       padding: 2.5rem 5%; border-top: 1px solid var(--border);
-      display: flex; justify-content: space-between; align-items: center;
+      display: flex; justify-content: center; align-items: center;
       font-size: 0.78rem; color: var(--muted);
     }
     .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--text); }
